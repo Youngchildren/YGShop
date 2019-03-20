@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>leftTitle</key>
+			<string>商铺封面图</string>
+			<key>rightTitle</key>
+			<string>限上传1张</string>
+		</dict>
+		<dict>
+			<key>leftTitle</key>
+			<string>商铺图片</string>
+			<key>rightTitle</key>
+			<string>限上传10张</string>
+		</dict>
+		<dict>
+			<key>leftTitle</key>
+			<string>详情图</string>
+			<key>rightTitle</key>
+			<string>限上传10张</string>
+		</dict>
+		<dict>
+			<key>leftTitle</key>
+			<string>商铺折扣</string>
+			<key>rightTitle</key>
+			<string>选择折扣</string>
+		</dict>
+		<dict>
+			<key>leftTitle</key>
+			<string>人均消费</string>
+			<key>rightTitle</key>
+			<string></string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>leftTitle</key>
+			<string>商铺位置</string>
+			<key>rightTitle</key>
+			<string>请填写商铺位置</string>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,1300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A83375B4EE77A29FE52373 /* libPods-YGShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E26321C61C5E95AE66596A9 /* libPods-YGShop.a */; };
+		263C0C22FDE1DBFC41345D9C /* libPods-YGShopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F24A68B71ACBDB88E86CCFC /* libPods-YGShopUITests.a */; };
+		89196D9521911F2800201337 /* YGMineShopFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89196D9421911F2800201337 /* YGMineShopFooterReusableView.m */; };
+		89196D97219121D400201337 /* YGMineShopHomepageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89196D96219121D400201337 /* YGMineShopHomepageList.plist */; };
+		8959E5E42192802C006BB9E6 /* YGShopPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5E32192802C006BB9E6 /* YGShopPictureViewController.m */; };
+		8959E5E921928714006BB9E6 /* YGShopPictureHeaderHintVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5E821928714006BB9E6 /* YGShopPictureHeaderHintVIew.m */; };
+		8959E5EC21928BD9006BB9E6 /* YGShopPictureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5EB21928BD9006BB9E6 /* YGShopPictureHelper.m */; };
+		8959E5EF21928D70006BB9E6 /* YGShopPicturePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5EE21928D70006BB9E6 /* YGShopPicturePhotoCell.m */; };
+		8959E5F32192C4A8006BB9E6 /* YGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5F22192C4A8006BB9E6 /* YGAlertView.m */; };
+		8959E5F72192C75A006BB9E6 /* YGShopDiscountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5F62192C75A006BB9E6 /* YGShopDiscountView.m */; };
+		8959E5FA2192D6DB006BB9E6 /* YGDisCountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5F92192D6DB006BB9E6 /* YGDisCountTableViewCell.m */; };
+		8959E5FE2193C8C8006BB9E6 /* YGShopLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E5FD2193C8C8006BB9E6 /* YGShopLocationViewController.m */; };
+		8959E6022193D778006BB9E6 /* YGShopLocationHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E6012193D778006BB9E6 /* YGShopLocationHudView.m */; };
+		8959E6042193D8E0006BB9E6 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8959E6032193D8E0006BB9E6 /* Address.plist */; };
+		8959E6072193D9C9006BB9E6 /* YGShopLocationHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E6062193D9C9006BB9E6 /* YGShopLocationHudHelper.m */; };
+		8959E60A219409D4006BB9E6 /* YGShopLocationHudViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959E609219409D4006BB9E6 /* YGShopLocationHudViewCell.m */; };
+		895B32C5218FEC130005586E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B32C4218FEC130005586E /* AppDelegate.m */; };
+		895B32CB218FEC130005586E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895B32C9218FEC130005586E /* Main.storyboard */; };
+		895B32CD218FEC150005586E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895B32CC218FEC150005586E /* Assets.xcassets */; };
+		895B32D0218FEC150005586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895B32CE218FEC150005586E /* LaunchScreen.storyboard */; };
+		895B32D3218FEC150005586E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B32D2218FEC150005586E /* main.m */; };
+		895B32DD218FEC150005586E /* YGShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B32DC218FEC150005586E /* YGShopTests.m */; };
+		895B32E8218FEC150005586E /* YGShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B32E7218FEC150005586E /* YGShopUITests.m */; };
+		895B32FF218FF0310005586E /* YGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B32FE218FF0310005586E /* YGBaseViewController.m */; };
+		895B330321900E690005586E /* YGMineShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B330221900E690005586E /* YGMineShopViewController.m */; };
+		895B3312219013660005586E /* UITextView+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3304219013660005586E /* UITextView+creat.m */; };
+		895B3313219013660005586E /* UITableView+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3306219013660005586E /* UITableView+creat.m */; };
+		895B3314219013660005586E /* UIImageView+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3308219013660005586E /* UIImageView+creat.m */; };
+		895B3315219013660005586E /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B330A219013660005586E /* UITextView+Placeholder.m */; };
+		895B3316219013660005586E /* UILabel+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B330C219013660005586E /* UILabel+creat.m */; };
+		895B3317219013660005586E /* UITextField+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3310219013660005586E /* UITextField+creat.m */; };
+		895B3318219013660005586E /* UIButton+creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3311219013660005586E /* UIButton+creat.m */; };
+		895B331E21901C6D0005586E /* UIImage+YGCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B331D21901C6D0005586E /* UIImage+YGCreat.m */; };
+		895B33212190292C0005586E /* MineShop.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895B33202190292C0005586E /* MineShop.xcassets */; };
+		895B3326219030070005586E /* YGMineShopHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3325219030070005586E /* YGMineShopHelper.m */; };
+		895B3329219034000005586E /* YGMineShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B3328219034000005586E /* YGMineShopCell.m */; };
+		89839E53219513180004CA97 /* YGOfflinePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89839E52219513180004CA97 /* YGOfflinePaymentViewController.m */; };
+		8985541421952B5C00A043DD /* YGOffinePaymentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8985541321952B5C00A043DD /* YGOffinePaymentViewCell.m */; };
+		89934D9021911AD300758696 /* YGMineShopHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89934D8F21911AD200758696 /* YGMineShopHeaderReusableView.m */; };
+		89C7915421915BDE00C50684 /* YGShopManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7915321915BDE00C50684 /* YGShopManagementViewController.m */; };
+		89E460F2219945E500CF3D5F /* YGOffinePaymentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E460F1219945E500CF3D5F /* YGOffinePaymentModel.m */; };
+		89E460F521994AD000CF3D5F /* YGOffinePaymentViewDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E460F421994AD000CF3D5F /* YGOffinePaymentViewDetailCell.m */; };
+		89E460F8219953C300CF3D5F /* UIDevice+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E460F7219953C300CF3D5F /* UIDevice+Type.m */; };
+		89E460FC219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E460FB219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.m */; };
+		89E49F392199A10300190921 /* YGOfflinePaymentCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F382199A10300190921 /* YGOfflinePaymentCalendarView.m */; };
+		89E49F3D219A5D1200190921 /* YGOfflinePaymentCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F3C219A5D1200190921 /* YGOfflinePaymentCalendarHelper.m */; };
+		89E49F41219A610200190921 /* YGOfflinePaymentCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F40219A610200190921 /* YGOfflinePaymentCalendarCell.m */; };
+		89E49F45219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F44219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.m */; };
+		89E49F48219ACDBB00190921 /* NSDate+LXCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F47219ACDBB00190921 /* NSDate+LXCalendar.m */; };
+		89E49F4C219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F4B219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.m */; };
+		89E49F4F219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E49F4E219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.m */; };
+		89EA6DF0219163C200DDA7DE /* YGShopManagementHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA6DEF219163C200DDA7DE /* YGShopManagementHelper.m */; };
+		89EA6DF32191682E00DDA7DE /* YGShopManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA6DF22191682E00DDA7DE /* YGShopManagementCell.m */; };
+		89EA6DF5219171DF00DDA7DE /* YGShopManagementList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89EA6DF4219171DF00DDA7DE /* YGShopManagementList.plist */; };
+		89EA6DF921917CA200DDA7DE /* YGShopIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA6DF821917CA200DDA7DE /* YGShopIntroView.m */; };
+		D5F02DB668E097ECD573C7D6 /* libPods-YGShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ACDCA6F79E774A623BB1F3 /* libPods-YGShopTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895B32D9218FEC150005586E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895B32B8218FEC130005586E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895B32BF218FEC130005586E;
+			remoteInfo = YGShop;
+		};
+		895B32E4218FEC150005586E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895B32B8218FEC130005586E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895B32BF218FEC130005586E;
+			remoteInfo = YGShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53ACDCA6F79E774A623BB1F3 /* libPods-YGShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YGShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E17C2BCEBE6976A7A17255 /* Pods-YGShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGShopUITests/Pods-YGShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E26321C61C5E95AE66596A9 /* libPods-YGShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YGShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B0BEB56200B5F44C423BB0 /* Pods-YGShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGShop/Pods-YGShop.debug.xcconfig"; sourceTree = "<group>"; };
+		68834FED78920C79B2EF6C63 /* Pods-YGShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGShopTests/Pods-YGShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F27D89584967BA8B213B68A /* Pods-YGShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGShop/Pods-YGShop.release.xcconfig"; sourceTree = "<group>"; };
+		89196D9321911F2800201337 /* YGMineShopFooterReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMineShopFooterReusableView.h; sourceTree = "<group>"; };
+		89196D9421911F2800201337 /* YGMineShopFooterReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMineShopFooterReusableView.m; sourceTree = "<group>"; };
+		89196D96219121D400201337 /* YGMineShopHomepageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YGMineShopHomepageList.plist; sourceTree = "<group>"; };
+		8959E5E22192802C006BB9E6 /* YGShopPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopPictureViewController.h; sourceTree = "<group>"; };
+		8959E5E32192802C006BB9E6 /* YGShopPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopPictureViewController.m; sourceTree = "<group>"; };
+		8959E5E721928714006BB9E6 /* YGShopPictureHeaderHintVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopPictureHeaderHintVIew.h; sourceTree = "<group>"; };
+		8959E5E821928714006BB9E6 /* YGShopPictureHeaderHintVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopPictureHeaderHintVIew.m; sourceTree = "<group>"; };
+		8959E5EA21928BD9006BB9E6 /* YGShopPictureHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopPictureHelper.h; sourceTree = "<group>"; };
+		8959E5EB21928BD9006BB9E6 /* YGShopPictureHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopPictureHelper.m; sourceTree = "<group>"; };
+		8959E5ED21928D70006BB9E6 /* YGShopPicturePhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopPicturePhotoCell.h; sourceTree = "<group>"; };
+		8959E5EE21928D70006BB9E6 /* YGShopPicturePhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopPicturePhotoCell.m; sourceTree = "<group>"; };
+		8959E5F12192C4A8006BB9E6 /* YGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAlertView.h; sourceTree = "<group>"; };
+		8959E5F22192C4A8006BB9E6 /* YGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAlertView.m; sourceTree = "<group>"; };
+		8959E5F52192C75A006BB9E6 /* YGShopDiscountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopDiscountView.h; sourceTree = "<group>"; };
+		8959E5F62192C75A006BB9E6 /* YGShopDiscountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopDiscountView.m; sourceTree = "<group>"; };
+		8959E5F82192D6DB006BB9E6 /* YGDisCountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGDisCountTableViewCell.h; sourceTree = "<group>"; };
+		8959E5F92192D6DB006BB9E6 /* YGDisCountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGDisCountTableViewCell.m; sourceTree = "<group>"; };
+		8959E5FC2193C8C8006BB9E6 /* YGShopLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopLocationViewController.h; sourceTree = "<group>"; };
+		8959E5FD2193C8C8006BB9E6 /* YGShopLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopLocationViewController.m; sourceTree = "<group>"; };
+		8959E6002193D778006BB9E6 /* YGShopLocationHudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopLocationHudView.h; sourceTree = "<group>"; };
+		8959E6012193D778006BB9E6 /* YGShopLocationHudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopLocationHudView.m; sourceTree = "<group>"; };
+		8959E6032193D8E0006BB9E6 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		8959E6052193D9C9006BB9E6 /* YGShopLocationHudHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopLocationHudHelper.h; sourceTree = "<group>"; };
+		8959E6062193D9C9006BB9E6 /* YGShopLocationHudHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopLocationHudHelper.m; sourceTree = "<group>"; };
+		8959E608219409D4006BB9E6 /* YGShopLocationHudViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopLocationHudViewCell.h; sourceTree = "<group>"; };
+		8959E609219409D4006BB9E6 /* YGShopLocationHudViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopLocationHudViewCell.m; sourceTree = "<group>"; };
+		895B32C0218FEC130005586E /* YGShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895B32C3218FEC130005586E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		895B32C4218FEC130005586E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		895B32CA218FEC130005586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		895B32CC218FEC150005586E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895B32CF218FEC150005586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		895B32D1218FEC150005586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895B32D2218FEC150005586E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		895B32D8218FEC150005586E /* YGShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895B32DC218FEC150005586E /* YGShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopTests.m; sourceTree = "<group>"; };
+		895B32DE218FEC150005586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895B32E3218FEC150005586E /* YGShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895B32E7218FEC150005586E /* YGShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopUITests.m; sourceTree = "<group>"; };
+		895B32E9218FEC150005586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895B32FD218FF0310005586E /* YGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGBaseViewController.h; sourceTree = "<group>"; };
+		895B32FE218FF0310005586E /* YGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGBaseViewController.m; sourceTree = "<group>"; };
+		895B330121900E690005586E /* YGMineShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMineShopViewController.h; sourceTree = "<group>"; };
+		895B330221900E690005586E /* YGMineShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMineShopViewController.m; sourceTree = "<group>"; };
+		895B3304219013660005586E /* UITextView+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+creat.m"; sourceTree = "<group>"; };
+		895B3305219013660005586E /* UILabel+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+creat.h"; sourceTree = "<group>"; };
+		895B3306219013660005586E /* UITableView+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+creat.m"; sourceTree = "<group>"; };
+		895B3307219013660005586E /* UIButton+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+creat.h"; sourceTree = "<group>"; };
+		895B3308219013660005586E /* UIImageView+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+creat.m"; sourceTree = "<group>"; };
+		895B3309219013660005586E /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		895B330A219013660005586E /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		895B330B219013660005586E /* UITextView+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+creat.h"; sourceTree = "<group>"; };
+		895B330C219013660005586E /* UILabel+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+creat.m"; sourceTree = "<group>"; };
+		895B330D219013660005586E /* UITableView+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+creat.h"; sourceTree = "<group>"; };
+		895B330E219013660005586E /* UIImageView+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+creat.h"; sourceTree = "<group>"; };
+		895B330F219013660005586E /* UITextField+creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+creat.h"; sourceTree = "<group>"; };
+		895B3310219013660005586E /* UITextField+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+creat.m"; sourceTree = "<group>"; };
+		895B3311219013660005586E /* UIButton+creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+creat.m"; sourceTree = "<group>"; };
+		895B3319219013CE0005586E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		895B331A219016CF0005586E /* FontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		895B331B219017EC0005586E /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		895B331C21901C6D0005586E /* UIImage+YGCreat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YGCreat.h"; sourceTree = "<group>"; };
+		895B331D21901C6D0005586E /* UIImage+YGCreat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YGCreat.m"; sourceTree = "<group>"; };
+		895B33202190292C0005586E /* MineShop.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MineShop.xcassets; sourceTree = "<group>"; };
+		895B3324219030070005586E /* YGMineShopHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMineShopHelper.h; sourceTree = "<group>"; };
+		895B3325219030070005586E /* YGMineShopHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMineShopHelper.m; sourceTree = "<group>"; };
+		895B3327219034000005586E /* YGMineShopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMineShopCell.h; sourceTree = "<group>"; };
+		895B3328219034000005586E /* YGMineShopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMineShopCell.m; sourceTree = "<group>"; };
+		89839E51219513180004CA97 /* YGOfflinePaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentViewController.h; sourceTree = "<group>"; };
+		89839E52219513180004CA97 /* YGOfflinePaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentViewController.m; sourceTree = "<group>"; };
+		8985541221952B5C00A043DD /* YGOffinePaymentViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOffinePaymentViewCell.h; sourceTree = "<group>"; };
+		8985541321952B5C00A043DD /* YGOffinePaymentViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOffinePaymentViewCell.m; sourceTree = "<group>"; };
+		89934D8E21911AD200758696 /* YGMineShopHeaderReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMineShopHeaderReusableView.h; sourceTree = "<group>"; };
+		89934D8F21911AD200758696 /* YGMineShopHeaderReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMineShopHeaderReusableView.m; sourceTree = "<group>"; };
+		89C7915021915B6400C50684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89C7915221915BDE00C50684 /* YGShopManagementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopManagementViewController.h; sourceTree = "<group>"; };
+		89C7915321915BDE00C50684 /* YGShopManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopManagementViewController.m; sourceTree = "<group>"; };
+		89E460F0219945E500CF3D5F /* YGOffinePaymentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOffinePaymentModel.h; sourceTree = "<group>"; };
+		89E460F1219945E500CF3D5F /* YGOffinePaymentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOffinePaymentModel.m; sourceTree = "<group>"; };
+		89E460F321994AD000CF3D5F /* YGOffinePaymentViewDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOffinePaymentViewDetailCell.h; sourceTree = "<group>"; };
+		89E460F421994AD000CF3D5F /* YGOffinePaymentViewDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOffinePaymentViewDetailCell.m; sourceTree = "<group>"; };
+		89E460F6219953C300CF3D5F /* UIDevice+Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Type.h"; sourceTree = "<group>"; };
+		89E460F7219953C300CF3D5F /* UIDevice+Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Type.m"; sourceTree = "<group>"; };
+		89E460FA219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentFiltrateHudView.h; sourceTree = "<group>"; };
+		89E460FB219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentFiltrateHudView.m; sourceTree = "<group>"; };
+		89E49F372199A10300190921 /* YGOfflinePaymentCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarView.h; sourceTree = "<group>"; };
+		89E49F382199A10300190921 /* YGOfflinePaymentCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarView.m; sourceTree = "<group>"; };
+		89E49F3B219A5D1200190921 /* YGOfflinePaymentCalendarHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarHelper.h; sourceTree = "<group>"; };
+		89E49F3C219A5D1200190921 /* YGOfflinePaymentCalendarHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarHelper.m; sourceTree = "<group>"; };
+		89E49F3F219A610200190921 /* YGOfflinePaymentCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarCell.h; sourceTree = "<group>"; };
+		89E49F40219A610200190921 /* YGOfflinePaymentCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarCell.m; sourceTree = "<group>"; };
+		89E49F43219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarTextCell.h; sourceTree = "<group>"; };
+		89E49F44219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarTextCell.m; sourceTree = "<group>"; };
+		89E49F46219ACDBB00190921 /* NSDate+LXCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LXCalendar.h"; sourceTree = "<group>"; };
+		89E49F47219ACDBB00190921 /* NSDate+LXCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LXCalendar.m"; sourceTree = "<group>"; };
+		89E49F4A219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarMonthModel.h; sourceTree = "<group>"; };
+		89E49F4B219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarMonthModel.m; sourceTree = "<group>"; };
+		89E49F4D219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGOfflinePaymentCalendarDayMondel.h; sourceTree = "<group>"; };
+		89E49F4E219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGOfflinePaymentCalendarDayMondel.m; sourceTree = "<group>"; };
+		89EA6DEE219163C200DDA7DE /* YGShopManagementHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopManagementHelper.h; sourceTree = "<group>"; };
+		89EA6DEF219163C200DDA7DE /* YGShopManagementHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopManagementHelper.m; sourceTree = "<group>"; };
+		89EA6DF12191682E00DDA7DE /* YGShopManagementCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopManagementCell.h; sourceTree = "<group>"; };
+		89EA6DF22191682E00DDA7DE /* YGShopManagementCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopManagementCell.m; sourceTree = "<group>"; };
+		89EA6DF4219171DF00DDA7DE /* YGShopManagementList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YGShopManagementList.plist; sourceTree = "<group>"; };
+		89EA6DF721917CA200DDA7DE /* YGShopIntroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGShopIntroView.h; sourceTree = "<group>"; };
+		89EA6DF821917CA200DDA7DE /* YGShopIntroView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGShopIntroView.m; sourceTree = "<group>"; };
+		9F24A68B71ACBDB88E86CCFC /* libPods-YGShopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YGShopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFFE16D7173A83D66864A1E /* Pods-YGShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGShopTests/Pods-YGShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB5736A003BE3B09185FA29 /* Pods-YGShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGShopUITests/Pods-YGShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895B32BD218FEC130005586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A83375B4EE77A29FE52373 /* libPods-YGShop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32D5218FEC150005586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F02DB668E097ECD573C7D6 /* libPods-YGShopTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32E0218FEC150005586E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263C0C22FDE1DBFC41345D9C /* libPods-YGShopUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2397BEAC50B01782E5BBF637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C7915021915B6400C50684 /* UIKit.framework */,
+				5E26321C61C5E95AE66596A9 /* libPods-YGShop.a */,
+				53ACDCA6F79E774A623BB1F3 /* libPods-YGShopTests.a */,
+				9F24A68B71ACBDB88E86CCFC /* libPods-YGShopUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89196D98219141B300201337 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				895B32F8218FF0180005586E /* Homepage */,
+				89196D9D219142AB00201337 /* ParterManagement(商户管理) */,
+				89196D99219142AB00201337 /* ShopManagement(商城管理) */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		89196D99219142AB00201337 /* ShopManagement(商城管理) */ = {
+			isa = PBXGroup;
+			children = (
+				89196DA22191431200201337 /* Homepage */,
+			);
+			path = "ShopManagement(商城管理)";
+			sourceTree = "<group>";
+		};
+		89196D9A219142AB00201337 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89196D9B219142AB00201337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89196D9C219142AB00201337 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		89196D9D219142AB00201337 /* ParterManagement(商户管理) */ = {
+			isa = PBXGroup;
+			children = (
+				89839E4C219512ED0004CA97 /* OfflinePayment(线下付款) */,
+				89196DA1219142E300201337 /* ShopManagement(店铺管理) */,
+			);
+			path = "ParterManagement(商户管理)";
+			sourceTree = "<group>";
+		};
+		89196D9E219142AB00201337 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5FB2193C8AE006BB9E6 /* 商铺位置 */,
+				89196DA32191593C00201337 /* Homepage */,
+				8959E5E121927FFD006BB9E6 /* 商铺图片 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89196D9F219142AB00201337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5FF2193D737006BB9E6 /* 商铺位置 */,
+				8959E5F42192C6EA006BB9E6 /* 选择折扣 */,
+				8959E5F02192C48D006BB9E6 /* 人均消费 */,
+				8959E5E6219286E8006BB9E6 /* 商铺图片 */,
+				89EA6DF621917C4800DDA7DE /* 店铺介绍 */,
+				89EA6DF12191682E00DDA7DE /* YGShopManagementCell.h */,
+				89EA6DF22191682E00DDA7DE /* YGShopManagementCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89196DA0219142AB00201337 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5E52192806E006BB9E6 /* 商铺图片 */,
+				89EA6DEE219163C200DDA7DE /* YGShopManagementHelper.h */,
+				89EA6DEF219163C200DDA7DE /* YGShopManagementHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		89196DA1219142E300201337 /* ShopManagement(店铺管理) */ = {
+			isa = PBXGroup;
+			children = (
+				89196D9E219142AB00201337 /* Controller */,
+				89196D9F219142AB00201337 /* View */,
+				89196DA0219142AB00201337 /* Helper */,
+			);
+			path = "ShopManagement(店铺管理)";
+			sourceTree = "<group>";
+		};
+		89196DA22191431200201337 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				89196D9A219142AB00201337 /* Controller */,
+				89196D9B219142AB00201337 /* View */,
+				89196D9C219142AB00201337 /* Helper */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		89196DA32191593C00201337 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				89C7915221915BDE00C50684 /* YGShopManagementViewController.h */,
+				89C7915321915BDE00C50684 /* YGShopManagementViewController.m */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		8959E5E121927FFD006BB9E6 /* 商铺图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5E22192802C006BB9E6 /* YGShopPictureViewController.h */,
+				8959E5E32192802C006BB9E6 /* YGShopPictureViewController.m */,
+			);
+			path = "商铺图片";
+			sourceTree = "<group>";
+		};
+		8959E5E52192806E006BB9E6 /* 商铺图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5EA21928BD9006BB9E6 /* YGShopPictureHelper.h */,
+				8959E5EB21928BD9006BB9E6 /* YGShopPictureHelper.m */,
+			);
+			path = "商铺图片";
+			sourceTree = "<group>";
+		};
+		8959E5E6219286E8006BB9E6 /* 商铺图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5E721928714006BB9E6 /* YGShopPictureHeaderHintVIew.h */,
+				8959E5E821928714006BB9E6 /* YGShopPictureHeaderHintVIew.m */,
+				8959E5ED21928D70006BB9E6 /* YGShopPicturePhotoCell.h */,
+				8959E5EE21928D70006BB9E6 /* YGShopPicturePhotoCell.m */,
+			);
+			path = "商铺图片";
+			sourceTree = "<group>";
+		};
+		8959E5F02192C48D006BB9E6 /* 人均消费 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5F12192C4A8006BB9E6 /* YGAlertView.h */,
+				8959E5F22192C4A8006BB9E6 /* YGAlertView.m */,
+			);
+			path = "人均消费";
+			sourceTree = "<group>";
+		};
+		8959E5F42192C6EA006BB9E6 /* 选择折扣 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5F52192C75A006BB9E6 /* YGShopDiscountView.h */,
+				8959E5F62192C75A006BB9E6 /* YGShopDiscountView.m */,
+				8959E5F82192D6DB006BB9E6 /* YGDisCountTableViewCell.h */,
+				8959E5F92192D6DB006BB9E6 /* YGDisCountTableViewCell.m */,
+			);
+			path = "选择折扣";
+			sourceTree = "<group>";
+		};
+		8959E5FB2193C8AE006BB9E6 /* 商铺位置 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E5FC2193C8C8006BB9E6 /* YGShopLocationViewController.h */,
+				8959E5FD2193C8C8006BB9E6 /* YGShopLocationViewController.m */,
+			);
+			path = "商铺位置";
+			sourceTree = "<group>";
+		};
+		8959E5FF2193D737006BB9E6 /* 商铺位置 */ = {
+			isa = PBXGroup;
+			children = (
+				8959E6002193D778006BB9E6 /* YGShopLocationHudView.h */,
+				8959E6012193D778006BB9E6 /* YGShopLocationHudView.m */,
+				8959E6052193D9C9006BB9E6 /* YGShopLocationHudHelper.h */,
+				8959E6062193D9C9006BB9E6 /* YGShopLocationHudHelper.m */,
+				8959E608219409D4006BB9E6 /* YGShopLocationHudViewCell.h */,
+				8959E609219409D4006BB9E6 /* YGShopLocationHudViewCell.m */,
+			);
+			path = "商铺位置";
+			sourceTree = "<group>";
+		};
+		895B32B7218FEC130005586E = {
+			isa = PBXGroup;
+			children = (
+				895B32C2218FEC130005586E /* YGShop */,
+				895B32DB218FEC150005586E /* YGShopTests */,
+				895B32E6218FEC150005586E /* YGShopUITests */,
+				895B32C1218FEC130005586E /* Products */,
+				89AFE238D0E3C00822E0BF44 /* Pods */,
+				2397BEAC50B01782E5BBF637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		895B32C1218FEC130005586E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895B32C0218FEC130005586E /* YGShop.app */,
+				895B32D8218FEC150005586E /* YGShopTests.xctest */,
+				895B32E3218FEC150005586E /* YGShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895B32C2218FEC130005586E /* YGShop */ = {
+			isa = PBXGroup;
+			children = (
+				895B32F5218FED8C0005586E /* AppDelegate */,
+				895B32F7218FEE630005586E /* MIneShop */,
+				895B32F6218FEE110005586E /* Other */,
+				895B32D1218FEC150005586E /* Info.plist */,
+			);
+			path = YGShop;
+			sourceTree = "<group>";
+		};
+		895B32DB218FEC150005586E /* YGShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				895B32DC218FEC150005586E /* YGShopTests.m */,
+				895B32DE218FEC150005586E /* Info.plist */,
+			);
+			path = YGShopTests;
+			sourceTree = "<group>";
+		};
+		895B32E6218FEC150005586E /* YGShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895B32E7218FEC150005586E /* YGShopUITests.m */,
+				895B32E9218FEC150005586E /* Info.plist */,
+			);
+			path = YGShopUITests;
+			sourceTree = "<group>";
+		};
+		895B32F5218FED8C0005586E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				895B32C3218FEC130005586E /* AppDelegate.h */,
+				895B32C4218FEC130005586E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		895B32F6218FEE110005586E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				895B32D2218FEC150005586E /* main.m */,
+				895B32C9218FEC130005586E /* Main.storyboard */,
+				895B32CC218FEC150005586E /* Assets.xcassets */,
+				895B32CE218FEC150005586E /* LaunchScreen.storyboard */,
+				895B3319219013CE0005586E /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		895B32F7218FEE630005586E /* MIneShop */ = {
+			isa = PBXGroup;
+			children = (
+				89196D98219141B300201337 /* UI */,
+				895B331F219028F80005586E /* Resource */,
+				895B32FA218FF0180005586E /* Base */,
+				895B32F9218FF0180005586E /* Define */,
+				895B32FB218FF0180005586E /* Utils(工具) */,
+			);
+			path = MIneShop;
+			sourceTree = "<group>";
+		};
+		895B32F8218FF0180005586E /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				895B33002190056A0005586E /* Controller */,
+				895B332221902FD90005586E /* Helper */,
+				895B332321902FD90005586E /* View */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		895B32F9218FF0180005586E /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				895B331A219016CF0005586E /* FontAndColorMacros.h */,
+				895B331B219017EC0005586E /* UtilsMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		895B32FA218FF0180005586E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				895B32FD218FF0310005586E /* YGBaseViewController.h */,
+				895B32FE218FF0310005586E /* YGBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		895B32FB218FF0180005586E /* Utils(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				895B32FC218FF0180005586E /* Category */,
+			);
+			path = "Utils(工具)";
+			sourceTree = "<group>";
+		};
+		895B32FC218FF0180005586E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				89E460F6219953C300CF3D5F /* UIDevice+Type.h */,
+				89E460F7219953C300CF3D5F /* UIDevice+Type.m */,
+				895B3307219013660005586E /* UIButton+creat.h */,
+				895B3311219013660005586E /* UIButton+creat.m */,
+				895B330E219013660005586E /* UIImageView+creat.h */,
+				895B3308219013660005586E /* UIImageView+creat.m */,
+				895B3305219013660005586E /* UILabel+creat.h */,
+				895B330C219013660005586E /* UILabel+creat.m */,
+				895B330D219013660005586E /* UITableView+creat.h */,
+				895B3306219013660005586E /* UITableView+creat.m */,
+				895B330F219013660005586E /* UITextField+creat.h */,
+				895B3310219013660005586E /* UITextField+creat.m */,
+				895B330B219013660005586E /* UITextView+creat.h */,
+				895B3304219013660005586E /* UITextView+creat.m */,
+				895B3309219013660005586E /* UITextView+Placeholder.h */,
+				895B330A219013660005586E /* UITextView+Placeholder.m */,
+				895B331C21901C6D0005586E /* UIImage+YGCreat.h */,
+				895B331D21901C6D0005586E /* UIImage+YGCreat.m */,
+				89E49F46219ACDBB00190921 /* NSDate+LXCalendar.h */,
+				89E49F47219ACDBB00190921 /* NSDate+LXCalendar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		895B33002190056A0005586E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				895B330121900E690005586E /* YGMineShopViewController.h */,
+				895B330221900E690005586E /* YGMineShopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		895B331F219028F80005586E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				895B33202190292C0005586E /* MineShop.xcassets */,
+				8959E6032193D8E0006BB9E6 /* Address.plist */,
+				89196D96219121D400201337 /* YGMineShopHomepageList.plist */,
+				89EA6DF4219171DF00DDA7DE /* YGShopManagementList.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		895B332221902FD90005586E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				895B3324219030070005586E /* YGMineShopHelper.h */,
+				895B3325219030070005586E /* YGMineShopHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		895B332321902FD90005586E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				895B3327219034000005586E /* YGMineShopCell.h */,
+				895B3328219034000005586E /* YGMineShopCell.m */,
+				89934D8E21911AD200758696 /* YGMineShopHeaderReusableView.h */,
+				89934D8F21911AD200758696 /* YGMineShopHeaderReusableView.m */,
+				89196D9321911F2800201337 /* YGMineShopFooterReusableView.h */,
+				89196D9421911F2800201337 /* YGMineShopFooterReusableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89839E4C219512ED0004CA97 /* OfflinePayment(线下付款) */ = {
+			isa = PBXGroup;
+			children = (
+				89839E4D219512ED0004CA97 /* Controller */,
+				89839E4E219512ED0004CA97 /* Model */,
+				89839E4F219512ED0004CA97 /* View */,
+				89839E50219512ED0004CA97 /* Helper */,
+			);
+			path = "OfflinePayment(线下付款)";
+			sourceTree = "<group>";
+		};
+		89839E4D219512ED0004CA97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89839E51219513180004CA97 /* YGOfflinePaymentViewController.h */,
+				89839E52219513180004CA97 /* YGOfflinePaymentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89839E4E219512ED0004CA97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89E460F0219945E500CF3D5F /* YGOffinePaymentModel.h */,
+				89E460F1219945E500CF3D5F /* YGOffinePaymentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89839E4F219512ED0004CA97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F362199A0D300190921 /* 日历 */,
+				89E460F92199566C00CF3D5F /* 筛选 */,
+				8985541221952B5C00A043DD /* YGOffinePaymentViewCell.h */,
+				8985541321952B5C00A043DD /* YGOffinePaymentViewCell.m */,
+				89E460F321994AD000CF3D5F /* YGOffinePaymentViewDetailCell.h */,
+				89E460F421994AD000CF3D5F /* YGOffinePaymentViewDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89839E50219512ED0004CA97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		89AFE238D0E3C00822E0BF44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61B0BEB56200B5F44C423BB0 /* Pods-YGShop.debug.xcconfig */,
+				6F27D89584967BA8B213B68A /* Pods-YGShop.release.xcconfig */,
+				CCFFE16D7173A83D66864A1E /* Pods-YGShopTests.debug.xcconfig */,
+				68834FED78920C79B2EF6C63 /* Pods-YGShopTests.release.xcconfig */,
+				57E17C2BCEBE6976A7A17255 /* Pods-YGShopUITests.debug.xcconfig */,
+				FBB5736A003BE3B09185FA29 /* Pods-YGShopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89E460F92199566C00CF3D5F /* 筛选 */ = {
+			isa = PBXGroup;
+			children = (
+				89E460FA219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.h */,
+				89E460FB219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.m */,
+			);
+			path = "筛选";
+			sourceTree = "<group>";
+		};
+		89E49F362199A0D300190921 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F49219BB02B00190921 /* Model */,
+				89E49F42219A624200190921 /* 日历文字cell */,
+				89E49F3E219A60DD00190921 /* 日历cell */,
+				89E49F3A219A5CC900190921 /* Helper */,
+				89E49F372199A10300190921 /* YGOfflinePaymentCalendarView.h */,
+				89E49F382199A10300190921 /* YGOfflinePaymentCalendarView.m */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		89E49F3A219A5CC900190921 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F3B219A5D1200190921 /* YGOfflinePaymentCalendarHelper.h */,
+				89E49F3C219A5D1200190921 /* YGOfflinePaymentCalendarHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		89E49F3E219A60DD00190921 /* 日历cell */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F3F219A610200190921 /* YGOfflinePaymentCalendarCell.h */,
+				89E49F40219A610200190921 /* YGOfflinePaymentCalendarCell.m */,
+			);
+			path = "日历cell";
+			sourceTree = "<group>";
+		};
+		89E49F42219A624200190921 /* 日历文字cell */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F43219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.h */,
+				89E49F44219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.m */,
+			);
+			path = "日历文字cell";
+			sourceTree = "<group>";
+		};
+		89E49F49219BB02B00190921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89E49F4A219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.h */,
+				89E49F4B219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.m */,
+				89E49F4D219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.h */,
+				89E49F4E219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89EA6DF621917C4800DDA7DE /* 店铺介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				89EA6DF721917CA200DDA7DE /* YGShopIntroView.h */,
+				89EA6DF821917CA200DDA7DE /* YGShopIntroView.m */,
+			);
+			path = "店铺介绍";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895B32BF218FEC130005586E /* YGShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895B32EC218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShop" */;
+			buildPhases = (
+				1A25867F1E03095FE6E9F8E7 /* [CP] Check Pods Manifest.lock */,
+				895B32BC218FEC130005586E /* Sources */,
+				895B32BD218FEC130005586E /* Frameworks */,
+				895B32BE218FEC130005586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGShop;
+			productName = YGShop;
+			productReference = 895B32C0218FEC130005586E /* YGShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895B32D7218FEC150005586E /* YGShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895B32EF218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShopTests" */;
+			buildPhases = (
+				DD9D566D2C5BDC2C6BCEB336 /* [CP] Check Pods Manifest.lock */,
+				895B32D4218FEC150005586E /* Sources */,
+				895B32D5218FEC150005586E /* Frameworks */,
+				895B32D6218FEC150005586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895B32DA218FEC150005586E /* PBXTargetDependency */,
+			);
+			name = YGShopTests;
+			productName = YGShopTests;
+			productReference = 895B32D8218FEC150005586E /* YGShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895B32E2218FEC150005586E /* YGShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895B32F2218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShopUITests" */;
+			buildPhases = (
+				9CB23B528EFF4AE6AA3A585A /* [CP] Check Pods Manifest.lock */,
+				895B32DF218FEC150005586E /* Sources */,
+				895B32E0218FEC150005586E /* Frameworks */,
+				895B32E1218FEC150005586E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895B32E5218FEC150005586E /* PBXTargetDependency */,
+			);
+			name = YGShopUITests;
+			productName = YGShopUITests;
+			productReference = 895B32E3218FEC150005586E /* YGShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895B32B8218FEC130005586E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yige;
+				TargetAttributes = {
+					895B32BF218FEC130005586E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					895B32D7218FEC150005586E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 895B32BF218FEC130005586E;
+					};
+					895B32E2218FEC150005586E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 895B32BF218FEC130005586E;
+					};
+				};
+			};
+			buildConfigurationList = 895B32BB218FEC130005586E /* Build configuration list for PBXProject "YGShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895B32B7218FEC130005586E;
+			productRefGroup = 895B32C1218FEC130005586E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895B32BF218FEC130005586E /* YGShop */,
+				895B32D7218FEC150005586E /* YGShopTests */,
+				895B32E2218FEC150005586E /* YGShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895B32BE218FEC130005586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895B33212190292C0005586E /* MineShop.xcassets in Resources */,
+				895B32D0218FEC150005586E /* LaunchScreen.storyboard in Resources */,
+				89196D97219121D400201337 /* YGMineShopHomepageList.plist in Resources */,
+				89EA6DF5219171DF00DDA7DE /* YGShopManagementList.plist in Resources */,
+				895B32CD218FEC150005586E /* Assets.xcassets in Resources */,
+				895B32CB218FEC130005586E /* Main.storyboard in Resources */,
+				8959E6042193D8E0006BB9E6 /* Address.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32D6218FEC150005586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32E1218FEC150005586E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A25867F1E03095FE6E9F8E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB23B528EFF4AE6AA3A585A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9D566D2C5BDC2C6BCEB336 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895B32BC218FEC130005586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E49F45219A62BE00190921 /* YGOfflinePaymentCalendarTextCell.m in Sources */,
+				89EA6DF0219163C200DDA7DE /* YGShopManagementHelper.m in Sources */,
+				89EA6DF921917CA200DDA7DE /* YGShopIntroView.m in Sources */,
+				895B3318219013660005586E /* UIButton+creat.m in Sources */,
+				8959E60A219409D4006BB9E6 /* YGShopLocationHudViewCell.m in Sources */,
+				8959E5EF21928D70006BB9E6 /* YGShopPicturePhotoCell.m in Sources */,
+				89E49F4F219BB07D00190921 /* YGOfflinePaymentCalendarDayMondel.m in Sources */,
+				89E460FC219956DF00CF3D5F /* YGOfflinePaymentFiltrateHudView.m in Sources */,
+				89E460F521994AD000CF3D5F /* YGOffinePaymentViewDetailCell.m in Sources */,
+				8959E5EC21928BD9006BB9E6 /* YGShopPictureHelper.m in Sources */,
+				895B32FF218FF0310005586E /* YGBaseViewController.m in Sources */,
+				89E49F4C219BB06900190921 /* YGOfflinePaymentCalendarMonthModel.m in Sources */,
+				895B3326219030070005586E /* YGMineShopHelper.m in Sources */,
+				8959E5FE2193C8C8006BB9E6 /* YGShopLocationViewController.m in Sources */,
+				895B32D3218FEC150005586E /* main.m in Sources */,
+				895B331E21901C6D0005586E /* UIImage+YGCreat.m in Sources */,
+				89C7915421915BDE00C50684 /* YGShopManagementViewController.m in Sources */,
+				89E460F8219953C300CF3D5F /* UIDevice+Type.m in Sources */,
+				89E49F392199A10300190921 /* YGOfflinePaymentCalendarView.m in Sources */,
+				89E49F3D219A5D1200190921 /* YGOfflinePaymentCalendarHelper.m in Sources */,
+				895B3312219013660005586E /* UITextView+creat.m in Sources */,
+				895B3314219013660005586E /* UIImageView+creat.m in Sources */,
+				895B3313219013660005586E /* UITableView+creat.m in Sources */,
+				895B3316219013660005586E /* UILabel+creat.m in Sources */,
+				8959E5F32192C4A8006BB9E6 /* YGAlertView.m in Sources */,
+				8959E6072193D9C9006BB9E6 /* YGShopLocationHudHelper.m in Sources */,
+				89196D9521911F2800201337 /* YGMineShopFooterReusableView.m in Sources */,
+				8959E6022193D778006BB9E6 /* YGShopLocationHudView.m in Sources */,
+				895B32C5218FEC130005586E /* AppDelegate.m in Sources */,
+				8959E5F72192C75A006BB9E6 /* YGShopDiscountView.m in Sources */,
+				89839E53219513180004CA97 /* YGOfflinePaymentViewController.m in Sources */,
+				89E460F2219945E500CF3D5F /* YGOffinePaymentModel.m in Sources */,
+				89934D9021911AD300758696 /* YGMineShopHeaderReusableView.m in Sources */,
+				8959E5FA2192D6DB006BB9E6 /* YGDisCountTableViewCell.m in Sources */,
+				8959E5E921928714006BB9E6 /* YGShopPictureHeaderHintVIew.m in Sources */,
+				89EA6DF32191682E00DDA7DE /* YGShopManagementCell.m in Sources */,
+				895B3329219034000005586E /* YGMineShopCell.m in Sources */,
+				8959E5E42192802C006BB9E6 /* YGShopPictureViewController.m in Sources */,
+				89E49F48219ACDBB00190921 /* NSDate+LXCalendar.m in Sources */,
+				895B330321900E690005586E /* YGMineShopViewController.m in Sources */,
+				89E49F41219A610200190921 /* YGOfflinePaymentCalendarCell.m in Sources */,
+				895B3315219013660005586E /* UITextView+Placeholder.m in Sources */,
+				895B3317219013660005586E /* UITextField+creat.m in Sources */,
+				8985541421952B5C00A043DD /* YGOffinePaymentViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32D4218FEC150005586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895B32DD218FEC150005586E /* YGShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895B32DF218FEC150005586E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895B32E8218FEC150005586E /* YGShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895B32DA218FEC150005586E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895B32BF218FEC130005586E /* YGShop */;
+			targetProxy = 895B32D9218FEC150005586E /* PBXContainerItemProxy */;
+		};
+		895B32E5218FEC150005586E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895B32BF218FEC130005586E /* YGShop */;
+			targetProxy = 895B32E4218FEC150005586E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		895B32C9218FEC130005586E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895B32CA218FEC130005586E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		895B32CE218FEC150005586E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895B32CF218FEC150005586E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895B32EA218FEC150005586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		895B32EB218FEC150005586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895B32ED218FEC150005586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B0BEB56200B5F44C423BB0 /* Pods-YGShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YGShop/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = YGShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895B32EE218FEC150005586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F27D89584967BA8B213B68A /* Pods-YGShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YGShop/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = YGShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895B32F0218FEC150005586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFFE16D7173A83D66864A1E /* Pods-YGShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGShop.app/YGShop";
+			};
+			name = Debug;
+		};
+		895B32F1218FEC150005586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68834FED78920C79B2EF6C63 /* Pods-YGShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGShop.app/YGShop";
+			};
+			name = Release;
+		};
+		895B32F3218FEC150005586E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E17C2BCEBE6976A7A17255 /* Pods-YGShopUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGShop;
+			};
+			name = Debug;
+		};
+		895B32F4218FEC150005586E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB5736A003BE3B09185FA29 /* Pods-YGShopUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.YGShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895B32BB218FEC130005586E /* Build configuration list for PBXProject "YGShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B32EA218FEC150005586E /* Debug */,
+				895B32EB218FEC150005586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895B32EC218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B32ED218FEC150005586E /* Debug */,
+				895B32EE218FEC150005586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895B32EF218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B32F0218FEC150005586E /* Debug */,
+				895B32F1218FEC150005586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895B32F2218FEC150005586E /* Build configuration list for PBXNativeTarget "YGShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B32F3218FEC150005586E /* Debug */,
+				895B32F4218FEC150005586E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895B32B8218FEC130005586E /* Project object */;
+}

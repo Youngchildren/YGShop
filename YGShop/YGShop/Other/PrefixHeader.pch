@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  YGShop
+//
+//  Created by 卜立新 on 2018/11/5.
+//  Copyright © 2018年 yige. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 工具类
+#import "UILabel+creat.h"
+#import "UITextField+creat.h"
+#import "UIImageView+creat.h"
+#import "UIButton+creat.h"
+#import "UITableView+creat.h"
+#import "UITextView+creat.h"
+#import "UITextView+Placeholder.h"
+#import "UIImage+YGCreat.h"
+#import "UIDevice+Type.h"
+
+// 全局宏
+#import "FontAndColorMacros.h"
+#import "UtilsMacros.h"
+
+// 第三方库
+#import <Masonry.h>
+
+#endif /* PrefixHeader_pch */
